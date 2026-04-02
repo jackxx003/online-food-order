@@ -1,0 +1,118 @@
+body {
+    background-color: #f1f3f5;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.button {
+    background-color: rgb(255, 3, 3); 
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button5 {border: 1px solid green;}
+
+.food-card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+.food-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.receipt-card {
+    background-color: #ffffff;
+    border-radius: 0; 
+    position: relative;
+}
+
+.dashed {
+    border: none;
+    border-top: 2px dashed #dee2e6;
+    color: #fff;
+    background-color: #fff;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.qty-btn {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    line-height: 1;
+    border-radius: 50%;
+}
+
+#step1, #step2, #step3 {
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+
+
+
+.footer {
+    border-top: 4px solid #ff0000; 
+}
+
+.footer-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    line-height: 2;
+    transition: all 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #dc3545; 
+    padding-left: 8px; 
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1; 
+}
+
+
+.rounded-circle {
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.footer-address {
+    color: #ffffff; 
+    font-size: 0.9rem;
+    font-weight: 500; 
+    transition: color 0.3s ease;
+}
+
+
+.footer-address:hover {
+    color: #d50a0a; 
+    cursor: pointer;
+}
